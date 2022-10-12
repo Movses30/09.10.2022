@@ -14,7 +14,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue(homwork.this_string_is_sentence("Hello hou are you."))
         self.assertRaises(TypeError, homwork.this_string_is_sentence, 20)
         self.assertRaises(Exception, homwork.this_string_is_sentence , "Hello hou are you...")
-        self.assertRaises(Exception, homwork.this_string_is_sentence , "hello hou are you.")
+        self.assertRaises(Exception, homwork.this_string_is_sentence , "hcdello hou are you.")
 
 
     def test_dis_string_is_natural_number(self):
